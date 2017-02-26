@@ -1,0 +1,217 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    line-height: 0;
+}
+
+p {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+.no-js .top-bar {
+    display: none;
+}
+
+@media screen and (min-width: 40em) {
+    .no-js .top-bar {
+        display: block;
+    }
+
+    .no-js .title-bar {
+        display: none;
+    }
+}
+
+.top-bar {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    background: black;
+    max-height: 36px;
+    font-size: 85%;
+}
+
+.top-bar ul {
+    background: transparent;
+    z-index: 9999;
+}
+
+.top-bar, .top-bar a, footer, footer a {
+    color: white;
+    font-weight: bolder;
+}
+
+.top-bar img {
+    margin: .25rem;
+}
+
+body > ul.ui-menu {
+    padding: 2rem;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    max-width: 50%;
+    background-color: white;
+    list-style: none;
+    padding: 1rem;
+    line-height: 200%;
+
+}
+
+footer {
+    background-color: rgb(126, 142, 67);
+}
+
+div.cms .cms-toolbar-item-logo a:before {
+    display: None;
+}
+
+.feature {
+    max-height: 640px;
+    min-width: 100%;
+    overflow: hidden;
+
+}
+
+.feature video {
+    min-width: 100%;
+    z-index: -100;
+}
+
+.menu .active > a {
+    color: white;
+    font-weight: bold;
+}
+
+.is-submenu-item {
+    background: rgb(0, 0, 0);
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a:after {
+    border: 6px inset;
+    border-color: white transparent transparent;
+    border-top-style: solid;
+    right: 8px;
+    margin-top: -2px;
+}
+
+.errorlist {
+    color: red;
+    list-style: None;
+}
+
+.row {
+    max-width: 100%;
+}
+
+.column {
+    padding: .5em;
+}
+
+.input_amount {
+    max-width: 100px;
+}
+
+.selectable {
+    min-width: 600px;
+}
+
+.budget-table {
+    padding: .1rem 1rem;
+}
+
+[type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number],
+[type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], textarea {
+    margin: .5rem;;
+}
+
+textarea[rows] {
+    height: 0px;
+}
+
+#alert {
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    min-width: 100%;
+    color: white;
+}
+
+.top-bar .button {
+    border-radius: 0;
+    padding: .5em;
+    margin-right: .5em;
+    margin-left: .5em;
+}
+
+#buy_license {
+    background-color: rgb(131, 232, 50);
+}
+
+#check_game {
+    background-color: rgb(255, 107, 36);
+
+}
+
+#side_nav {
+    top: auto;
+    height: auto;
+}
+
+#side_nav li a {
+    font-size: small;
+    line-height: 80%;
+}
+
+footer {
+    min-width: 100%;
+}
+
+img.logo {
+    margin: 0 auto 0 auto;
+    display: block;
+    max-width: 200px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.button, .badge {
+    background-color: rgb(126, 142, 67);
+}
+
+.button:hover, .badge:hover {
+    background-color: rgb(122, 93, 61);
+}
+
+a {
+    color: rgb(122, 93, 61);
+    font-weight: bolder;
+}
+
+a:hover {
+    color: rgb(126, 142, 67);
+}
+
+footer a:hover {
+    color: black;
+}
+
+#logo_feature {
+    position: absolute;
+}
+
+.map {
+    min-height: 600px;
+}
+
+#map {
+    min-height: 800px;
+}
